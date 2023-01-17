@@ -44,6 +44,8 @@ public class Teste {
 
 		/* Fecha o arquivo */ 
 		myFileHandler.close();
+		
+		
 	} 
 }
 
