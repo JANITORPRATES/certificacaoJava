@@ -1,4 +1,4 @@
-package scr.ALURA;
+package scr.ALURA.Fatorial;
 
 class FatorialNum10 {
 	public static void main(String[] args) {

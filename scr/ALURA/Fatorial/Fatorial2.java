@@ -1,4 +1,4 @@
-package scr.ALURA;
+package scr.ALURA.Fatorial;
 
 public class Fatorial2 {
 
