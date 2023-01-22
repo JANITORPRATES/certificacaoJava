@@ -1,6 +1,6 @@
 package scr.ALURA.BancoOrientadoObjeto;
 
-public class Gerente extends Funcionario {
+public class Gerente extends Funcionario implements Autenticavel {
 
     private int senha;
 
