@@ -1,3 +1,14 @@
 /Fluxo.class
 /MinhaExcecao.class
 /FluxoComError.class
+/SaldoInsuficienteException.class
+/ContaException.class
+/ContaCorrenteException.class
+/TesteContasException.class
+/TesteSacaException.class
+/ContaCorrente3.class
+/Conta3.class
+/TesteContas3.class
+/TesteSaca3.class
+/Conexao.class
+/TesteConexao.class
