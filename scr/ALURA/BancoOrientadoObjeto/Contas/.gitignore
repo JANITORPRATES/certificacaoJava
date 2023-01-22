@@ -3,3 +3,8 @@
 /TesteContas.class
 /ContaCorrente.class
 /ContaPoupanca.class
+/Tributavel.class
+/CalculadorImposto.class
+/CalculadorDeImposto.class
+/SeguroDeVida.class
+/TesteTributaveis.class
