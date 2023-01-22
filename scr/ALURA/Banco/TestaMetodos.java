@@ -3,10 +3,10 @@ package scr.ALURA.Banco;
 public class TestaMetodos {
 
 	public static void main(String[] args) {
-		Conta contaJanitor = new Conta();
-		Conta contaPalloma = new Conta();
+		Conta1 contaJanitor = new Conta1();
+		Conta1 contaPalloma = new Conta1();
 		
-		contaJanitor.setTitular(new Cliente());
+		contaJanitor.setTitular(new Cliente1());
 		contaJanitor.getTitular().setNome("Janitor");
 		
 		contaJanitor.deposita(100);

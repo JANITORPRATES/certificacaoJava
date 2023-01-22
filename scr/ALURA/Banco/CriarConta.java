@@ -4,7 +4,7 @@ public class CriarConta {
 
 	public static void main(String[] args) {
 		
-		Conta primeiraConta = new Conta();
+		Conta1 primeiraConta = new Conta1();
 		primeiraConta.deposita(400);
 		System.out.println(primeiraConta.getSaldo());
 		
@@ -12,7 +12,7 @@ public class CriarConta {
 		
 		System.out.println(primeiraConta.getSaldo());
 		
-		Conta segundaConta = primeiraConta;
+		Conta1 segundaConta = primeiraConta;
 		segundaConta.deposita(50);
 		
 		System.out.println("Saldo da primeira conta: " + primeiraConta.getSaldo());

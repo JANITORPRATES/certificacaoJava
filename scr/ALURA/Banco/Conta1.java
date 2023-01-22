@@ -1,11 +1,11 @@
 package scr.ALURA.Banco;
 
-public class Conta {
+public class Conta1 {
 	
 	private double saldo;
 	private int agencia;
 	private int numeroConta;
-	private Cliente titular;
+	private Cliente1 titular;
 
 	public void deposita(double valor) {
 		this.saldo += valor;
@@ -20,7 +20,7 @@ public class Conta {
 		return false;
 	}
 	
-	public boolean transfere(double valor, Conta contaDestino) {
+	public boolean transfere(double valor, Conta1 contaDestino) {
 		if(saca(valor)) {
 			contaDestino.deposita(valor);
 			return true;
@@ -49,11 +49,11 @@ public class Conta {
 		this.numeroConta = numeroConta;
 	}
 
-	public Cliente getTitular() {
+	public Cliente1 getTitular() {
 		return titular;
 	}
 
-	public void setTitular(Cliente titular) {
+	public void setTitular(Cliente1 titular) {
 		this.titular = titular;
 	}
 	

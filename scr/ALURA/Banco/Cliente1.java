@@ -1,6 +1,6 @@
 package scr.ALURA.Banco;
 
-public class Cliente {
+public class Cliente1 {
 	
 	private String nome;
 	private String cpf;
