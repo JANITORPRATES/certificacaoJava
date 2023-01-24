@@ -8,7 +8,7 @@ import scr.ALURA.BancoOrientadoObjeto.Contas.ContaCorrente;
 public class TesteArrayList {
     public static void main(String[] args) {
 
-        ArrayList lista = new ArrayList();
+        ArrayList<Conta> lista = new ArrayList<>();
 
         Conta cc = new ContaCorrente(22, 11);
         lista.add(cc);
