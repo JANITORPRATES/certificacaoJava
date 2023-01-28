@@ -7,3 +7,6 @@
 /GuardadorDeReferencias.class
 /TesteGuardadorReferencias.class
 /TesteArrayList.class
+/ArrayListSemGenerics.class
+/ArrayListComGenerics.class
+/TesteArrayListEquals.class
