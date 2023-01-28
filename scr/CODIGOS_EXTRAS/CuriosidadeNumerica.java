@@ -27,7 +27,12 @@ public class CuriosidadeNumerica {
 		float f1 = 123.4f;
 		float f2 = 1.234e2f;//float também pode usar notação ciêntifica
 		
-		System.out.println(d1==d2);
+		System.out.println(d1==d2);//retorna true
+		
+		int valorDecimal = 26;
+		int valorHexadecimal = 0x1a;//começa com zero xis
+		int valorOctal = 032; //começa com zero
+		int valorBinario = 0b11010;//começa com zero bê
 	}
 
 }
