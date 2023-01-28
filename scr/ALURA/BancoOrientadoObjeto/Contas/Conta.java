@@ -79,4 +79,18 @@ public class Conta {
 		return Conta.total;
 	}
 
+	public boolean ehIgual(Conta outra) {
+
+		if (this.agencia != outra.agencia) {
+			return false;
+		}
+
+		if (this.numero != outra.numero) {
+			return false;
+		}
+
+		return true;
+
+	}
+
 }

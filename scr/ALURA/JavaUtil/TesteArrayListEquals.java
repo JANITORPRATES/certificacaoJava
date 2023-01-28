@@ -24,8 +24,8 @@ public class TesteArrayListEquals {
         System.out.println("Já existe? " + existe);
 
         for(Conta conta : lista) {
-            if(conta == cc3) {
-                System.out.println("Já tenho essa conta!");
+            if(conta.ehIgual(cc3)) {
+                    System.out.println("Já tenho essa conta!");
             }
     }
     }
