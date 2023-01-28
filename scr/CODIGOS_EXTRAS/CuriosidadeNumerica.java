@@ -1,6 +1,6 @@
 package scr.CODIGOS_EXTRAS;
 
-public class CuriosidadeInteiros {
+public class CuriosidadeNumerica {
 	
 	
 	/*
@@ -20,6 +20,14 @@ public class CuriosidadeInteiros {
 		int limiteMaximoUltrapassado = tamanhoMaximo + valor;
 		
 		System.out.println(limiteMaximoUltrapassado);//Imprime o próximo valor a partir do mínimo
+		
+		
+		double d1 = 123.4;
+		double d2 = 1.234e2;//mesmo valor de d1, mas em notação ciêntifica 1,234 x 10²
+		float f1 = 123.4f;
+		float f2 = 1.234e2f;//float também pode usar notação ciêntifica
+		
+		System.out.println(d1==d2);
 	}
 
 }
