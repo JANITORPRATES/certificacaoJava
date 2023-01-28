@@ -79,7 +79,9 @@ public class Conta {
 		return Conta.total;
 	}
 
-	public boolean ehIgual(Conta outra) {
+	@Override
+	public boolean equals(Object o) {
+		Conta outra = (Conta) o;
 
 		if (this.agencia != outra.agencia) {
 			return false;
