@@ -1,4 +1,4 @@
-package scr.CODIGOS_EXTRAS;
+package scr.CODIGOS_EXTRAS.javaBasico;
 
 import java.util.Scanner;
 
