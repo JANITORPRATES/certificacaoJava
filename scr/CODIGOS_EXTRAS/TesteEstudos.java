@@ -1,4 +1,4 @@
-package scr;
+package scr.CODIGOS_EXTRAS;
 
 public class TesteEstudos {
 
