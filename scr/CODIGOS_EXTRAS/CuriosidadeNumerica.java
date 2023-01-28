@@ -76,6 +76,11 @@ public class CuriosidadeNumerica {
 		int x7 = 0x5_2;
 		
 		*/
+		
+		int outubro31 = 031; //25 representado em octal
+		int dezembro25 = 25;
+		
+		System.out.println(outubro31 == dezembro25); //retorna true
 	}
 
 }
