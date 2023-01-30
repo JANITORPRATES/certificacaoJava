@@ -1,6 +1,10 @@
 package scr.CODIGOS_EXTRAS;
 
 public class Extras {
+	
+	 int teste; 
+	 
+	 String s5 = "teste";
 
 	public static void main(String[] args) {
 
