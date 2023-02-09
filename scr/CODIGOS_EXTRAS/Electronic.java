@@ -14,9 +14,11 @@ abstract class Phone2 extends Electronic
 
 class Phone3 extends Electronic implements Device
 { 
-	public void doStuff() { }
+	public void doStuff() {
+	}
 	public void doIt(){}
 }
+
 interface Device { 
 	abstract void doIt();
  }

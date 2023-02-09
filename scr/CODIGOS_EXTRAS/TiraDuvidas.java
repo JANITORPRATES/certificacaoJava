@@ -1,8 +1,17 @@
 package scr.CODIGOS_EXTRAS;
 
-public class TiraDuvidas {
+import java.util.Calendar;
+
+public class TiraDuvidas{
+	
+	int a = 1;
 	
 	public static void main(String[] parametros){
+		int a = 2, b = 1;
+		
+		
+		System.out.println(a);
+		/*
 		
 		int a = 1;
 //		int b = 3;
@@ -59,5 +68,22 @@ public class TiraDuvidas {
 		
 	
 		System.out.println("HelloWorld");
+		
+		
+		int ab = 0;
+		int[] frequencia = new int[3];
+		frequencia[ab++] = 2;
+		
+		System.out.println("valor de ab " + ab + " frequencia[0] " + frequencia[0]);
+		System.out.println("frequencia[1] " +  frequencia[1]);
+		*/
+		Calendar hoje = Calendar.getInstance();
+		short a2 = 1;
+		//a2 = a2 + 1; erro de compilação
+		int b2 = a2 + 1;
+		a2 = (short) (a2 + 1);
+		a2 = (short) b2;
+		a2 = 12;
+		
 	}
 }
