@@ -16,6 +16,8 @@ import java.util.logging.Level;
 
 public class Teste {
 	
+	
+	
 	public static void main(String[] args) throws IOException { 
 	
 		/* Assegura que o diretório seja criado */ 

@@ -19,6 +19,7 @@ public class CalculaTempoExecucao {
 		
 		
 		StringBuilder strBuilder = new StringBuilder();
+		String teste = strBuilder.toString();
 		
 		long tStart1 = System.currentTimeMillis();
 		for(int i = 0; i < 100000; i++) {

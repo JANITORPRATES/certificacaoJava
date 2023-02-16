@@ -77,6 +77,10 @@ System.out.println(s1.equals(s2));
 
 	}
 	
+	public static void main(int args) {
+		System.out.println("outro main");
+	}
+	
 	 
 
 }

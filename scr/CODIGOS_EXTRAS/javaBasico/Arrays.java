@@ -1,9 +1,16 @@
 package scr.CODIGOS_EXTRAS.javaBasico;
 
+import scr.CODIGOS_EXTRAS.Teste;
+
 public class Arrays {
 
 	public static void main(String[] args) {
 		
+		new Teste();
+		int b = 0;
+		final int a = ++b; 
+		
+		System.out.println(a);
 		double tempDia001 = 31.3;
 		double tempDia002 = 32;
 		double tempDia003 = 33.7;
