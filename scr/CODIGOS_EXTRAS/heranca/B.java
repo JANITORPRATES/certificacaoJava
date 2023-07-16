@@ -1,6 +1,6 @@
 package scr.CODIGOS_EXTRAS.heranca;
 
-public class B extends A {
+public class B extends A3 {
 
 	String variavel = "Classe filho - B";
 	static void metodo() {
